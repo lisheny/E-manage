@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_bg"
+    tools:context="com.anbaoxing.e_marketing.activitys.PayActivity">
+
+    <com.anbaoxing.e_marketing.widget.CommonTitle
+        android:id="@+id/aty_pay_commontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.anbaoxing.e_marketing.widget.CommonTitle>
+
+    <TableLayout
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/aty_pay_10rmb"
+                android:layout_height="45dp"
+                android:background="@mipmap/aty_pay_choose_bg"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="¥10元"/>
+
+            <TextView
+                android:id="@+id/aty_pay_20rmb"
+                android:layout_height="45dp"
+                android:background="@drawable/pay_aty_choose_bg"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="¥20元"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_height="45dp"
+                android:background="@drawable/pay_aty_choose_bg"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="¥50元"
+                android:id="@+id/aty_pay_50rmb" />
+
+            <TextView
+                android:id="@+id/aty_pay_100rmb"
+                android:layout_height="45dp"
+                android:background="@drawable/pay_aty_choose_bg"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:text="¥100元"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/aty_pay_wx_relativelayout"
+        android:background="@color/write"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/wx_pay"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/aty_pay_wx"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp" />
+
+     <TextView
+         android:layout_marginTop="5dp"
+         android:id="@+id/wx_pay_text"
+         android:padding="5dp"
+         android:layout_toRightOf="@+id/wx_pay"
+         android:textColor="@color/black"
+         android:text="微信支付"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/wx_pay_text"
+            android:textSize="@dimen/menu"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/wx_pay"
+            android:text="推荐安装微信5.0及以上版本的用户使用"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/aty_pay_wx_rb"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aty_pay_zhifubao_relativelayout"
+        android:layout_marginTop="2dp"
+        android:background="@color/write"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/zhifubao_pay"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/aty_pay_zhifubao"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/zhufubao_pay_text"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/zhifubao_pay"
+            android:textColor="@color/black"
+            android:text="支付宝支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/zhufubao_pay_text"
+            android:textSize="@dimen/menu"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/zhifubao_pay"
+            android:text="推荐有支付宝账号的用户使用"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/aty_pay_zhifubao_rb"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/aty_pay_yinlian_relativelayout"
+        android:layout_marginTop="2dp"
+        android:background="@color/write"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/yinglian_pay"
+            android:layout_marginLeft="16dp"
+            android:src="@mipmap/aty_pay_yinglian"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/yinglian_pay_text"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/yinglian_pay"
+            android:textColor="@color/black"
+            android:text="银行卡支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/yinglian_pay_text"
+            android:textSize="@dimen/menu"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/yinglian_pay"
+            android:text="安全极速支付，无需开通网银"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/aty_pay_yinlian_rb"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/aty_pay_comfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/issue_aty_btn_bg"
+        android:padding="16dp"
+       android:text="确认支付"
+        android:textColor="@color/write" />
+
+
+
+</LinearLayout>

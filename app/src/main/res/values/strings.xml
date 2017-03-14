@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">E-marketing</string>
+
+    <string name="fragment_main_yu_e">余额</string>
+    <string name="fragment_main_start_time">起始时间</string>
+    <string name="fragment_main_online_time">上网时间</string>
+    <string name="fragment_main_used_flow">已用流量</string>
+    <string name="fragment_main_online">上网</string>
+    <string name="fragment_main_offline">断网</string>
+    <string name="fragment_main_pay">充值</string>
+    <string name="fragment_main_share">分享</string>
+    <string name="fragment_main_message_record">消息记录</string>
+    <string name="fragment_main_news">最新消息</string>
+
+    <string name="fragment_group_tab_manege">社群经营</string>
+    <string name="fragment_group_tab_massage">最新消息</string>
+    <string name="fragment_group_tab_news">圈子消息</string>
+    <string name="fragment_group_tab_share">分享</string>
+    <string name="fragment_group_tab_mygroup">我的小圈子</string>
+
+    <string name="fragment_setting_yu_e">可用余额</string>
+    <string name="fragment_setting_flow">折算为可用流量</string>
+    <string name="fragment_setting_update">\t软件升级</string>
+    <string name="fragment_setting_about">\t关于我们</string>
+    <string name="fragment_setting_issue">\t问题反馈</string>
+    <string name="fragment_setting_password">\t修改密码</string>
+    <string name="fragment_setting_login">\t用户登录</string>
+    <string name="fragment_setting_logout">退出登录</string>
+
+    <string name="aty_issue_submit">提交</string>
+    <string name="aty_issue_suggest">请填写你的意见或建议，谢谢~</string>
+    <string name="aty_issue_contact">请填写你的联系方式（QQ或微信）</string>
+
+    <string name="aty_changepassword_input_old">请输入原密码</string>
+    <string name="aty_changepassword_input_new">请输入新密码</string>
+    <string name="aty_changepassword_confirm">确认</string>
+
+    <string name="aty_login_input_number">请输入手机号码</string>
+    <string name="aty_login_input_password">请输入密码</string>
+    <string name="aty_login_string">还没有账号？</string>
+    <string name="aty_login_register">立即注册</string>
+    <string name="aty_login_forgetpassword">忘记密码</string>
+
+    <string name="aty_register_input_number">请输入手机号码</string>
+    <string name="aty_register_input_password">请输入密码</string>
+    <string name="aty_register_input_password_again">请验证密码</string>
+    <string name="aty_register_input_name">请输入姓名</string>
+    <string name="aty_register_input_code">请输入验证码</string>
+    <string name="aty_register_get_code">获取验证码</string>
+    <string name="aty_register_string">已有账号？</string>
+    <string name="aty_register_login">立即登录</string>
+
+    <string name="aty_forgetpassword_input_number">请输入手机号码</string>
+    <string name="aty_forgetpassword_input_code">请输入验证码</string>
+    <string name="aty_forgetpassword_getcode">获取验证码</string>
+    <string name="aty_forgetpassword_reset">重置密码</string>
+
+    <string name="aty_reserpassword_input_newpassword">请输入新密码</string>
+    <string name="aty_reserpassword_input_newpassword_again">请再次输入新密码</string>
+    <string name="aty_reserpassword_confirm">确认</string>
+</resources>

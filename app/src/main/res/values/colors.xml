@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_green_dark">@android:color/holo_green_dark</color>
+
+    <color name="color_white">@android:color/white</color>
+    <!--导航栏文字颜色-->
+    <color name="tab_check">#ffffff</color>
+    <color name="tab_uncheck">#c3c3c3</color>
+
+    <color name="write">#ffffff</color>
+    <color name="black">#666666</color>
+    <color name="title_bg">#ff8e52</color>
+    <color name="fragment_bg">#f7f8fa</color>
+</resources>

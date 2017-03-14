@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".alipay.AlipayActivity">
+
+    <com.anbaoxing.e_marketing.widget.CommonTitle
+        android:id="@+id/alipay_aty_commontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.anbaoxing.e_marketing.widget.CommonTitle>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--商品名称-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="top"
+                android:text="商品名称:"
+                android:textColor="#777777"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/subject_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机充值"
+                android:textColor="#333333"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!--商品描述-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="top"
+                android:text="商品描述:"
+                android:textColor="#777777"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/body_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="远离手机、拒绝上网，保平安"
+                android:textColor="#333333"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <!-- 商品价格 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="top"
+                android:text="商品价格:"
+                android:textColor="#777777"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/price_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.01元"
+                android:textColor="#ff6600"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <Button
+            android:background="@drawable/issue_aty_btn_bg"
+            android:id="@+id/pay_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:text="支付"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+
+</LinearLayout>

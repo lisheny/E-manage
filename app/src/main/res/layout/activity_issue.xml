@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_issue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_bg"
+    android:orientation="vertical"
+    tools:context="com.anbaoxing.e_marketing.activitys.IssueActivity">
+
+    <com.anbaoxing.e_marketing.widget.CommonTitle
+        android:id="@+id/issue_aty_commontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.anbaoxing.e_marketing.widget.CommonTitle>
+
+    <EditText
+        android:singleLine="true"
+        android:textColorHint="@color/tab_uncheck"
+        android:id="@+id/aty_issue_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/write"
+        android:drawableRight="@mipmap/contact_ic00"
+        android:hint="@string/aty_issue_contact"
+        android:padding="16dp"
+        android:textSize="@dimen/menu" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        />
+
+    <EditText
+        android:textColorHint="@color/tab_uncheck"
+        android:id="@+id/aty_issue_suggest"
+        android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/write"
+        android:hint="@string/aty_issue_suggest"
+        android:padding="16dp"
+        android:textSize="@dimen/menu" />
+
+
+
+
+    <Button
+        android:id="@+id/aty_issue_btn_submit"
+        android:layout_marginTop="32dp"
+        android:text="@string/aty_issue_submit"
+        android:background="@drawable/issue_aty_btn_bg"
+        android:textColor="@color/write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+</LinearLayout>

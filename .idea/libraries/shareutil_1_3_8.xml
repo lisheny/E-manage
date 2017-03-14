@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="shareutil-1.3.8">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/jars/libs/weiboSDKCore_3.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/jars/libs/open_sdk_r5756_lite.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.shaohui.shareutil/shareutil/1.3.8/jars/libs/libammsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.shaohui.shareutil/shareutil/1.3.8/47c422fb68a9618741941b421ce84a2464ec460/shareutil-1.3.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

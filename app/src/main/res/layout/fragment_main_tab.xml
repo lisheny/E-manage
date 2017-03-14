@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/write"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/main_fragment_logintitle_bg">
+
+        <TextView
+            android:id="@+id/local_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:drawableLeft="@mipmap/city00"
+            android:drawableRight="@mipmap/city01"
+            android:text="深圳"
+            android:textColor="@color/write" />
+
+        <LinearLayout
+            android:id="@+id/icon_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/local_city"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:src="@mipmap/test_icon"
+                android:id="@+id/fragment_main_imv00" />
+
+            <TextView
+                android:id="@+id/fragment_main_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="ID:我的小圈子"
+                android:textColor="@color/write" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/money_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/yu_e"
+            android:layout_toRightOf="@id/icon_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_weight="1.5"
+                android:id="@+id/fragment_main_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="¥ 8888.00"
+                android:textColor="@color/write"
+                android:textSize="@dimen/headline" />
+
+            <ImageView
+                android:id="@+id/fragment_main_imv01"
+                android:layout_width="0dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/see" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/money_linearlayout"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/icon_linearlayout">
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="@string/fragment_main_start_time"
+                android:textColor="@color/write" />
+
+            <TextView
+
+                android:id="@+id/online_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp"
+                android:text="@string/fragment_main_online_time"
+                android:textColor="@color/write" />
+
+            <TextView
+                android:id="@+id/used_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="2dp"
+                android:text="@string/fragment_main_used_flow"
+                android:textColor="@color/write" />
+
+            <TextView
+                android:id="@+id/fragment_main_starttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/start_time"
+                android:padding="2dp"
+                android:text="06时06分"
+                android:textColor="@color/write" />
+
+            <TextView
+                android:id="@+id/fragment_main_onlinetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/online_time"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp"
+                android:text="66分钟"
+                android:textColor="@color/write" />
+
+            <TextView
+                android:id="@+id/fragment_main_usedflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/online_time"
+                android:padding="2dp"
+                android:text="666M"
+                android:textColor="@color/write" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/yu_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/local_city"
+            android:layout_marginTop="24dp"
+            android:layout_toRightOf="@id/icon_linearlayout"
+            android:text="@string/fragment_main_yu_e"
+            android:textColor="@color/write" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_tab_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="-38dp"
+        app:cardBackgroundColor="@color/write"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="8dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fragment_main_online"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/fragment_main_online"
+                android:drawableTop="@mipmap/btn_online"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fragment_main_outline"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/fragment_main_offline"
+                android:drawableTop="@mipmap/btn_offline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fragment_main_pay"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/fragment_main_pay"
+                android:drawableTop="@mipmap/btn_pay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fragment_main_share"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/fragment_main_share"
+                android:drawableTop="@mipmap/btn_share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/title_bg"
+            android:gravity="center"
+            android:background="@drawable/main_fragment_btn_message_record"
+            android:padding="8dp"
+            android:text="@string/fragment_main_message_record"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_main_check_pay" />
+
+        <TextView
+            android:id="@+id/fragment_main_news"
+            android:textColor="@color/write"
+            android:gravity="center"
+            android:background="@drawable/main_fragment_btn_news"
+            android:padding="8dp"
+            android:text="@string/fragment_main_news"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+             />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/fragment_bg"
+        android:id="@+id/main_fragment_recyclerview"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

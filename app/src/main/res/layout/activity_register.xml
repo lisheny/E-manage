@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_bg"
+    android:orientation="vertical"
+    tools:context="com.anbaoxing.e_marketing.activitys.IssueActivity">
+
+    <com.anbaoxing.e_marketing.widget.CommonTitle
+        android:id="@+id/register_aty_commontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.anbaoxing.e_marketing.widget.CommonTitle>
+
+    <EditText
+        android:text="13232650766"
+        android:id="@+id/aty_register_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/write"
+        android:drawableRight="@mipmap/contact_ic00"
+        android:hint="@string/aty_register_input_number"
+        android:padding="16dp"
+        android:phoneNumber="true"
+        android:singleLine="true"
+        android:textColorHint="@color/tab_uncheck"
+        android:textSize="@dimen/menu" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:text="123"
+        android:id="@+id/aty_register_password00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/write"
+        android:drawableRight="@mipmap/lock_ic00"
+        android:hint="@string/aty_register_input_password"
+        android:padding="16dp"
+        android:password="true"
+        android:singleLine="true"
+        android:textColorHint="@color/tab_uncheck"
+        android:textSize="@dimen/menu" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:text="123"
+        android:id="@+id/aty_register_password01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/write"
+        android:drawableRight="@mipmap/lock_ic00"
+        android:hint="@string/aty_register_input_password_again"
+        android:padding="16dp"
+        android:password="true"
+        android:singleLine="true"
+        android:textColorHint="@color/tab_uncheck"
+        android:textSize="@dimen/menu" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" />
+
+    <EditText
+        android:text="yao"
+        android:id="@+id/aty_register_getname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/write"
+        android:drawableRight="@mipmap/name_ic"
+        android:hint="@string/aty_register_input_name"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textColorHint="@color/tab_uncheck"
+        android:textSize="@dimen/menu" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/write"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/aty_register_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/write"
+            android:hint="@string/aty_register_input_code"
+            android:padding="16dp"
+            android:singleLine="true"
+            android:textColorHint="@color/tab_uncheck"
+            android:textSize="@dimen/menu" />
+
+        <TextView
+            android:id="@+id/aty_register_goto_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/register_aty_btn_bg"
+            android:padding="8dp"
+            android:text="@string/aty_register_get_code"
+            android:textColor="@color/title_bg" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/aty_register_doregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/issue_aty_btn_bg"
+        android:padding="16dp"
+        android:src="@mipmap/next_step"
+        android:textColor="@color/write" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/aty_register_string" />
+
+        <TextView
+            android:id="@+id/aty_register_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-26dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="@string/aty_register_login"
+            android:textColor="@color/title_bg" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

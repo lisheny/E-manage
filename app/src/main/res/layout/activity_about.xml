@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_bg"
+    tools:context="com.anbaoxing.e_marketing.activitys.AboutActivity">
+
+    <com.anbaoxing.e_marketing.widget.CommonTitle
+        android:id="@+id/about_aty_commontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.anbaoxing.e_marketing.widget.CommonTitle>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="45dp"
+        android:src="@mipmap/activity_about_logo" />
+
+    <LinearLayout
+        android:background="@color/write"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="12dp"
+             android:text="软件版本"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textColor="@color/title_bg"
+            android:padding="12dp"
+            android:text="V1.0.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+    <LinearLayout
+        android:background="@color/write"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="12dp"
+            android:text="编译日期"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textColor="@color/title_bg"
+            android:padding="12dp"
+            android:text="2017/2/15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

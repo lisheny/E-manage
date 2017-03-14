@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anbaoxing.e_marketing.activitys.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radio_group">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tab_main"
+            style="@style/tab_bottom"
+            android:drawableTop="@drawable/radiobutton_main"
+            android:focusable="true"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/tab_group"
+            style="@style/tab_bottom"
+            android:drawableTop="@drawable/radiobutton_group"
+            android:focusable="true"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/tab_setting"
+            style="@style/tab_bottom"
+            android:drawableTop="@drawable/radiobutton_setting"
+            android:focusable="true"
+            android:text=""
+            android:textColor="@color/text_color"
+            android:textSize="10sp" />
+
+    </RadioGroup>
+</RelativeLayout>
